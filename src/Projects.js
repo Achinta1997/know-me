@@ -6,7 +6,7 @@ const Projects =()=>{
     return(
         <div className="project">
             <h3 className='head'>Projects</h3>
-      <motion.p  initial={{ opacity: 0 }}
+      <motion.p initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
   viewport={{ once: true }}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus ornare porta. Nam eros orci, sodales eu orci id, ullamcorper gravida urna. Vivamus quis sapien quam. In et mauris ut ligula imperdiet pretium. Fusce vehicula nisl in dui vestibulum, eu placerat ligula blandit. Vivamus euismod nisl sit amet ante blandit, nec feugiat orci pellentesque. Duis euismod lacus lobortis viverra eleifend. Sed sollicitudin diam in odio blandit congue. Cras molestie dictum lorem, sed efficitur mi efficitur porttitor. Nam quis fringilla lorem, quis laoreet sapien. Sed interdum accumsan lorem, non hendrerit magna ultricies non. Vestibulum tellus ipsum, commodo non massa at, eleifend consectetur elit. Fusce laoreet non urna sed maximus.
