@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import About from './About';
 import Projects from './Projects';
+import Contact from './Contact';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ const App=() =>{
       <Navbar checkDark={darkChecker}/>
        <About />
        <Projects />
+       <Contact />
     </div>
   );
 }
