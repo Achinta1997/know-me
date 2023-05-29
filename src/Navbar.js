@@ -22,7 +22,7 @@ const Navbar=(props)=>{
                 <a  href="projects"><i className="fa-solid fa-diagram-project"></i></a>
                 <a  href="#contact"><i className="fa-solid fa-envelope"></i></a>
                 {/* <i className="fa-solid fa-bars navicon-burger" onClick={showNav}></i> */}
-                <a  href="about" className='darkmode' id='darkButton' onClick={DarkMode}>
+                <a  href="#contact" className='darkmode' id='darkButton' onClick={DarkMode}>
                     {
                         !isDark?<i className="fa-regular fa-moon"></i>:<i className="fa-regular fa-sun"></i>
                     }
