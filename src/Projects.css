@@ -1,0 +1,21 @@
+
+.project{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width:786px){
+    .project{
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+}
+
+.checkBtn{
+    background-color: rgb(33, 33, 192);
+    border-radius: 13%;
+    color: white;
+    font-family: monserrat;
+    scale: 1.25;
+}

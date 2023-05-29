@@ -1,0 +1,59 @@
+
+.about{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.introText{
+    width: 50%;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.introText h2{
+    text-align: center;
+    
+}
+
+.introText p{
+    text-align: center;
+    
+}
+
+.introImageBox{
+    padding-left: 3%;
+}
+
+@keyframes imgAnimate {
+    0%  {border-radius: 70% 90% 50%;}
+    100%  {border-radius: 100% 60% 70%;}
+}
+
+.introImageBox img{
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+    animation: imgAnimate;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    animation-delay: 0.5s;
+}
+
+@media only screen and (max-width:786px){
+    .about{
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+
+    .introImageBox {
+        width: 60%;
+        padding-left: 0;
+    }
+
+    .introImageBox img{
+        width: 300px;
+        padding-left: 0%;
+    }
+
+}
