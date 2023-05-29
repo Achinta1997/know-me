@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 import './About.css'
 import introImage from './assets/achinta1.png'
 
