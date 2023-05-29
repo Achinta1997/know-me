@@ -84,7 +84,7 @@ nav a:hover{
 
     .navbar{
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
     }
 
     nav a{
