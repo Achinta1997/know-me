@@ -1,0 +1,70 @@
+.skills{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    display: block;
+    height: fit-content
+    
+}
+
+.skill-title{
+    font-size: 2.5rem;
+    font-family: Cormorant Garamond;
+    display: block;
+}
+
+hr{
+    width: 20%;
+    
+}
+
+.skill-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    width: 80%;
+}
+
+li{
+    font-size: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+   margin: auto;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+i:hover{
+    color: rgb(88, 99, 214);
+    scale: 1.5;
+}
+
+@media only screen and (max-width:786px){
+    li{
+        font-size: 5rem;
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-bottom: 10%;
+        width: 50px;
+    }
+    
+    .skills{
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+
+    .skill-icons{
+        display: flex;
+        height: 1400px;
+        margin-left: -12%;
+    }
+}
+

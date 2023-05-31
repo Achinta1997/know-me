@@ -40,6 +40,7 @@ useEffect(()=>{
     transition={{ duration: 2 }} className='introImageBox'><img src={introImage} alt='Achinta'></img>
     </motion.div>
 
+    
         </div>
     );
 }

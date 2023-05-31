@@ -1,21 +1,35 @@
 
 .project{
     margin-left: 5rem;
-    margin-top: 1rem;
+    margin-top: 5rem;
 }
 
+.head{
+    font-size: 2.5rem;
+    font-family: Cormorant Garamond;
+}
+
+hr{
+    width: 20%;
+    margin-bottom: 6%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    
+}
 
 @media only screen and (max-width:786px){
     .project{
         margin-left: 1rem;
         margin-top: 4rem;
+        
+    }
+
+    .cards{
+        display: block;
+        
     }
 }
 
-.checkBtn{
-    background-color: rgb(33, 33, 192);
-    border-radius: 13%;
-    color: white;
-    font-family: monserrat;
-    scale: 1.25;
-}
