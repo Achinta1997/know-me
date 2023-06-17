@@ -1,5 +1,5 @@
 import "./Skills.css"
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 
 const Skills=()=>{
 
@@ -11,7 +11,7 @@ const Skills=()=>{
           }}
           initial="hidden"
           animate="visible"
-          transition={{duration:0.5 ,delay:0.25}}>Skills</motion.h3>
+          transition={{duration:0.5 ,delay:0.25}}>Skills <i class="fa-solid fa-code"></i> </motion.h3>
         <hr />
         <div className="skill-icons">
         <motion.ul variants={{
@@ -22,29 +22,29 @@ const Skills=()=>{
           animate="visible"
           transition={{duration:0.5 ,delay:0.25}}>
             <li><motion.i whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}class="fa-brands fa-html5"></motion.i></li>
+    whileTap={{ scale: 0.9 }} className="fa-brands fa-html5 skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-brands fa-css3-alt"></motion.i></li>
+ className="fa-brands fa-css3-alt skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-brands fa-bootstrap"></motion.i></li>
+ className="fa-brands fa-bootstrap skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-brands fa-js"></motion.i></li>
+ className="fa-brands fa-js skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-brands fa-react"></motion.i></li>
+ className="fa-brands fa-react skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-brands fa-node"></motion.i></li>
+ className="fa-brands fa-node skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-solid fa-database"></motion.i></li>
+ className="fa-solid fa-database skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-solid fa-server"></motion.i></li>
+ className="fa-solid fa-server skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-brands fa-linux"></motion.i></li>
+ className="fa-brands fa-linux skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-brands fa-git-alt"></motion.i></li>
+ className="fa-brands fa-git-alt skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-duotone fa-c"></motion.i></li>
+ className="fa-duotone fa-c skill-item"></motion.i></li>
             <li><motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}
- class="fa-solid fa-file-excel"></motion.i></li>
+ className="fa-solid fa-file-excel skill-item"></motion.i></li>
         </motion.ul>
         </div>
         

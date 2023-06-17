@@ -39,8 +39,7 @@ useEffect(()=>{
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 2 }} className='introImageBox'><img src={introImage} alt='Achinta'></img>
     </motion.div>
-
-    
+   
         </div>
     );
 }

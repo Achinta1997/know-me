@@ -7,7 +7,7 @@
 }
 
 .skill-title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: Cormorant Garamond;
     display: block;
 }
@@ -42,10 +42,11 @@ li{
    justify-content: center;
 }
 
-i:hover{
+.skill-item:hover{
     color: rgb(88, 99, 214);
     scale: 1.5;
 }
+
 
 @media only screen and (max-width:786px){
     li{

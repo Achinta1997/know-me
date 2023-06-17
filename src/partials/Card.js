@@ -15,7 +15,11 @@ const Card=(props)=>{
           transition={{duration:0.5 ,delay:0.25}} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="card">
         <h3 className='card-content'>{props.title}</h3>
         <img src={props.imgUrl} alt={props.altImg} className='card-content'></img>
-        <p className='card-content'>{props.description}</p>
+        <p className='card-content description'>{props.description}</p>
+        <p className='card-content'>
+        <a href={props.link} target='blank'>link <i class="fa-solid fa-link"></i></a>
+        <a href={props.code} target='blank'>code <i class="fa-solid fa-code"></i></a>
+        </p>
         </motion.div>
     );
 }

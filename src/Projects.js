@@ -10,6 +10,8 @@ function createCard(props){
         imgUrl={props.imgUrl}
         altImg={props.altImg}
         description={props.description}
+        link={props.link}
+        code={props.code}
     />
 }
 
@@ -23,7 +25,7 @@ const Projects =()=>{
           }}
           initial="hidden"
           animate="visible"
-          transition={{duration:0.5 ,delay:0.25}} className='head'>Projects</motion.h3>
+          transition={{duration:0.5 ,delay:0.25}} className='head'>Projects <i className="fa-solid fa-diagram-project"></i></motion.h3>
             <hr />
 
             <p className='cards'> 

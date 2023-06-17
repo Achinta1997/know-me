@@ -18,19 +18,43 @@
     justify-content: center;
 }
 
+.card-content a{
+    display: flex;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.card-content a:hover{
+    color: rgb(216, 217, 240);
+    scale: 1.2;
+}
+
 .card h3{
-    height: 20%;
+    height: 15%;
     font-family: Cormorant Garamond;
     font-size: 1.75rem;
 }
 
 .card img{
-    height: 60%;
+    height: 50%;
 }
 
 .card p{
-    height: 20%;
+    height: 15%;
     font-family: Merriweather;
+}
+
+.description{
+    height: 20%;
+    margin: 3px 3px 3px 3px;
+    font-family: Merriweather;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 @media only screen and (max-width:786px){

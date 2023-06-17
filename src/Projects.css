@@ -5,7 +5,7 @@
 }
 
 .head{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: Cormorant Garamond;
 }
 
@@ -19,6 +19,7 @@ hr{
     justify-content: center;
     
 }
+
 
 @media only screen and (max-width:786px){
     .project{
