@@ -16,7 +16,7 @@ useEffect(()=>{
 },[])
 
     return(
-        <div className="about">
+        <div className="about" id='about'>
           <div className='introText'>
 
           <motion.h2 variants={{

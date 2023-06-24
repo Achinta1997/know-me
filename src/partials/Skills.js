@@ -1,25 +1,38 @@
+import { useEffect, useRef } from "react";
 import "./Skills.css"
-import { color, motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 
 const Skills=()=>{
 
+  const ref=useRef(null);
+    const isInView= useInView(ref,{once:true});
+
+    const mainControls=useAnimation();
+
+    useEffect(()=>{
+        if(isInView){
+            mainControls.start("visible");
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[isInView]);
+
     return(
         <motion.div className="skills" >
-        <motion.h3 className="skill-title" variants={{
+        <motion.h3 ref={ref} className="skill-title" variants={{
             hidden:{opacity:0, x:-75},
             visible: {opacity:1, x:0}
           }}
           initial="hidden"
-          animate="visible"
+          animate={mainControls}
           transition={{duration:0.5 ,delay:0.25}}>Skills <i class="fa-solid fa-code"></i> </motion.h3>
         <hr />
         <div className="skill-icons">
-        <motion.ul variants={{
+        <motion.ul ref={ref} variants={{
             hidden:{opacity:0, x:75},
             visible: {opacity:1, x:0}
           }}
           initial="hidden"
-          animate="visible"
+          animate={mainControls}
           transition={{duration:0.5 ,delay:0.25}}>
             <li><motion.i whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }} className="fa-brands fa-html5 skill-item"></motion.i></li>
